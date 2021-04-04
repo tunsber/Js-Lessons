@@ -1,0 +1,35 @@
+<!DOTYPE HTML>
+<html>
+    <body>
+		<script>
+		 function onButtonPress()
+		 {
+			var bullets = document.getElementById("bullets").value;
+			var dragons = document.getElementById("dragons").value;
+			var killDragons = dragons*3;
+			
+				if (bullets >= killDragons)
+				{
+					alert("YOU WIN");
+				}
+				else
+				{
+					alert("YOU LOSE");
+				}
+			
+		
+			
+			
+		 }
+		
+		</script>
+		
+		<input type="text" id="bullets">
+		<input type="text" id="dragons">
+		<button onclick="onButtonPress()">ГОТОВО</button>
+		
+		
+	</body>
+	
+	
+</html>

@@ -1,0 +1,38 @@
+<!DOTYPE HTML>
+	<html>
+		<body>
+			<script>
+				var word = "аргентина манит негра"
+				var newWords = ""
+				var noSpaces = ""
+				
+				for (i = 0; i < word.length; i++)
+				{
+					if (word[i] != " ")
+					{
+						noSpaces = noSpaces + word[i]
+				
+					}
+				}	alert(noSpaces)
+				for (i = noSpaces.length - 1; i >= 0; i--)
+				{
+					newWords = newWords + noSpaces[i]
+					
+				}
+				if (newWords == noSpaces)
+				{
+					alert("It's palindrom")			
+				} else 
+				{
+					alert("It's not palindrom")
+				}
+			</script>
+			
+			
+			
+			
+		</body>
+	
+	
+	
+	</html>
